@@ -6,7 +6,7 @@ import org.RPS.menu.GameMenu;
 public class AppContext {
     private final GameMenu gameMenu;
 
-    public AppContext (){
+    public AppContext () {
         GameController gameController = new GameController();
         gameMenu = new GameMenu(gameController);
     }
